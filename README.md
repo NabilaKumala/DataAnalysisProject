@@ -4,14 +4,14 @@ Studi kasus: Bike Sharing Dataset
 
 ## Dashboard Tutorials ✨
 
-### Setup environment
+### Setup Environment
 ```
 conda create --name main-ds python=3.11
 conda activate main-ds
 pip install numpy pandas matplotlib seaborn streamlit
 ```
 
-### Run steamlit app
+### Run Streamlit App
 ```
 streamlit run dashboard.py
 ```

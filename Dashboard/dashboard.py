@@ -57,7 +57,7 @@ def create_winter_bs(df):
     winter_bs = df[(df['season'] == 4)]
     return winter_bs
 
-bikeshare_df = pd.read_csv("bikeshare.csv")
+bikeshare_df = pd.read_csv("https://raw.githubusercontent.com/NabilaKumala/DataAnalysisProject/main/Dashboard/bikeshare.csv")
 
 bikeshare_df.sort_values(by="dteday", inplace=True)
 bikeshare_df.reset_index(inplace=True)
